@@ -7,7 +7,7 @@ pipeline{
         stage('Smoke Testing')
         {
             steps{
-                sh 'echo "test Code"'
+                bat 'echo "test Code"'
             }
         }
         

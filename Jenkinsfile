@@ -9,7 +9,7 @@ pipeline{
         stage('Build Code')
         {
             steps{
-                sh 'echo "Build Code"'
+                bat 'echo "Build Code"'
             }
         }
         
